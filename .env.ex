@@ -20,4 +20,4 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM=sekretariat@doscom.org
 MAIL_NAME=TeaLinuxOSX Registration
 
-TEALINUXOS_VERSION=
+TEALINUXOS_VERSION= 
