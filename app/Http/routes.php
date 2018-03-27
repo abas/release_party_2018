@@ -11,7 +11,6 @@
 */
 
 
-
 Route::get('/', function(){
   return view('home');
 });
@@ -42,11 +41,11 @@ Route::post('terimakasih','PesertaController@store');
 
 // konfirmasi
 //Route::get('konfirmasi', 'PesertaController@show_konfirmasi');
+//Route::post('konfirmasi', 'PesertaController@konfirmasi');
 
 Route::get('konfirmasi', 'KonfirmasiController@create');
 Route::post('konfirmasi', 'KonfirmasiController@store');
 
-//Route::post('konfirmasi', 'PesertaController@konfirmasi');
 Route::post('cek-kode', 'PesertaController@cek_kode');
 
 Route::get('tiket', 'PesertaController@tiket');
@@ -109,6 +108,7 @@ Route::get('test-view-email-lunas', function(){
 //Route::post('contact', 'ContactController@sendContactInfo');
 //Route::get('/','PostController@index');
 Route::get('/home',['as' => 'home', 'uses' => 'PostController@index']);
+
 //authentication
 Route::controllers([
     'auth' => 'Auth\AuthController',
