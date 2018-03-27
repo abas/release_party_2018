@@ -30,312 +30,74 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-      DB::table('users')->insert([
-         'name' => 'Sikun',
-         'username' => 'sikun',
-         'email' => 'arnazadiputra@gmail.com',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Arji',
-         'username' => 'A11.2014.08073',
-         'email' => 'sekretariat1@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Irfan',
-         'username' => 'A11.2014.08363',
-         'email' => 'sekretariat2@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'DDA',
-         'username' => 'A11.2015.09001',
-         'email' => 'sekretariat3@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Lita',
-         'username' => 'A11.2015.08985',
-         'email' => 'sekretariat4@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Moriz',
-         'username' => 'A11.2014.08565',
-         'email' => 'sekretariat5@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Dhanang',
-         'username' => 'A11.2014.08205',
-         'email' => 'sekretariat6@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Farah',
-         'username' => 'A11.2014.08644',
-         'email' => 'sekretariat7@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Awan',
-         'username' => 'A11.2015.09270',
-         'email' => 'sekretariat8@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Bayu Aji',
-         'username' => 'A14.2015.02168',
-         'email' => 'sekretariat9@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Tama',
-         'username' => 'A11.2014.08540',
-         'email' => 'sekretariat10@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Pendi',
-         'username' => 'A11.2014.08165',
-         'email' => 'sekretariat11@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Yuli',
-         'username' => 'A11.2015.08979',
-         'email' => 'sekretariat12@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Basir',
-         'username' => 'A11.2015.09101',
-         'email' => 'sekretariat13@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Hafidz',
-         'username' => 'A11.2015.09000',
-         'email' => 'sekretariat14@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'desi',
-         'username' => 'A11.2014.08041',
-         'email' => 'sekretariat15@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'sulis',
-         'username' => 'A11.2014.08163',
-         'email' => 'sekretariat16@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Briyan',
-         'username' => 'A11.2014.08431',
-         'email' => 'sekretariat17@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Imam',
-         'username' => 'A11.2014.08237',
-         'email' => 'sekretariat18@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'salam',
-         'username' => 'A11.2014.08175',
-         'email' => 'sekretariat19@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Conet',
-         'username' => 'A11.2014.08465',
-         'email' => 'sekretariat20@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Cipo',
-         'username' => 'A11.2015.09103',
-         'email' => 'sekretariat21@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Bayu Her',
-         'username' => 'A11.2015.08914',
-         'email' => 'sekretariat22@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Bimas',
-         'username' => 'A11.2015.09286',
-         'email' => 'sekretariat23@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Wisnu',
-         'username' => 'A11.2014.080272',
-         'email' => 'sekretariat24@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Bona',
-         'username' => 'A11.2014.08381',
-         'email' => 'sekretariat25@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Shofro',
-         'username' => 'A11.2015.09314',
-         'email' => 'sekretariat26@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Reno',
-         'username' => 'A11.2015.09133',
-         'email' => 'sekretariat27@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Zakiy',
-         'username' => 'A11.2014.08326',
-         'email' => 'sekretariat28@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Billy',
-         'username' => 'A11.2014.08170',
-         'email' => 'sekretariat29@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Yoga',
-         'username' => 'A11.2014.08683',
-         'email' => 'sekretariat30@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Ilham',
-         'username' => 'A11.2014.08196',
-         'email' => 'sekretariat31@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Nafis',
-         'username' => 'A11.2014.08458',
-         'email' => 'sekretariat32@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
-     DB::table('users')->insert([
-         'name' => 'Riyaman',
-         'username' => 'A11.2014.08227',
-         'email' => 'sekretariat33@doscom.org',
-         'password' => bcrypt('tanyairfan'),
-         'role' => 'admin',
-         'created_at' => Carbon\Carbon::now(),
-         'updated_at' => Carbon\Carbon::now(),
-     ]);
+
+        $user = [
+            'Tea Admin'               => 'tea@doscom.org',
+            'Ahmad Basir'             => 'A15.2016.00515',
+            'Dinia Kurnia'            => 'A11.2016.09772',
+            'Yuliana Utari'           => 'A11.2015.08979',
+            'Carissa Adila'           => 'A11.2016.09407',
+            'Dian Ayu'                => 'A11.2015.09001',
+            'Muhammad Dimas'          => 'A12.2016.05596',
+            'Nurul Diyah'             => 'A11.2015.09234',
+            'Muhammad Hafidz'         => 'A11.2015.09000',
+            'Dicky Setiono'           => 'A11.2016.09564',
+            'Haris Novrial'           => 'A11.2015.09268',
+            'Zagasi Bagas'            => 'A11.2016.09854',
+            'Okta Arif'               => 'A11.2016.09421',
+            'Radhitya Kusuma'         => 'A11.2016.09434',
+            'Reno Kurnia'             => 'A11.2015.09133',
+            'Bagus Rindawan'          => 'A11.2015.09270',
+            'Bayu Aji'                => 'A14.2015.02168',
+            'Muhammad Afifudin'       => 'A11.2015.09103',
+            'Aftiani Wahyuastuti'     => 'A11.2015.08852',
+            'Ilham Mufti'             => 'A11.2016.09398',
+            'Ahmad Risqi'             => 'A12.2016.05473', 
+            'Muchammad khafi'         => 'A11.2016.09689',
+            'Lina Puji'               => 'A11.2016.09390',
+            'Adhitya widhiariandoko'  => 'A11.2016.09399',
+            'Muhammad Anang'          => 'A11.2016.09416',
+            'Seviana Pungky'          => 'A11.2015.09163',
+            'Rivo Ghalif'             => 'A11.2015.09267',
+            'Sri wulan'               => 'A11.2016.09532',
+            'Safrudin Windu'          => 'A11.2016.09690',
+            'Dian Arima'              => 'A12.2016.05474',
+            'Rizki Mufti'             => 'A11.2016.09493',
+            'Rizki Ramadhan'          => 'A11.2015.08913',
+            'Jazuli Muhtar'           => 'A11.2016.09653',
+            'Singgih Nugroho'         => 'A11.2016.09507',
+            'Vareza Vimaretantyo'     => 'A11.2016.09503',
+            'Hermawan Luthfi'         => 'A11.2015.09026',
+            'Mas Luky'                => 'A11.2016.09385',
+            'Fransiskus Xaverius'     => 'A12.2016.05545',
+            'Nanang Prasetiyo'        => 'A11.2016.09923',
+            'Maulana Muhammadin'      => 'A11.2016.09392',
+            'Fahmi Anwar'             => 'A11.2016.09916',
+            'Laksita Kusuma'          => 'A11.2016.09438',
+            'Harasta Rahman'          => 'A11.2015.09002',
+            'Bayu Hermawan'           => 'A11.2015.08914',
+            'Ramadhan Renaldy'        => 'A11.2016.09408',
+            'Puteri Awaliatush'       => 'A11.2015.09314',
+            'Alfin Maghfiroh'         => 'A11.2016.09542',
+            'Nurmalita Cindy'         => 'A11.2015.08985',
+            'Salman Abdurrohman'      => 'A11.2016.09423',
+            'Piyoma Andika'           => 'A11.2015.08870',
+            'Aulia Nailal'            => 'A11.2016.09415',
+            'Abdurahman'              => 'A11.2015.09266',
+        ];
+
+        foreach($user as $username => $email){
+
+            DB::table('users')->insert([
+                'name' => $username,
+                'username' => $email,
+                'email' => $email,
+                'password' => bcrypt(env('PASSADMIN')),
+                'role' => 'admin',
+                'created_at' => Carbon\Carbon::now(),
+                'updated_at' => Carbon\Carbon::now(),
+                ]);
+        }
 
     }
 }
