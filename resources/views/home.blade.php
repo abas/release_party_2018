@@ -10,7 +10,7 @@
                     </a>
                 </div>
             </div>
-            <h3 class="headline-support wow fadeInDown">Seminar Nasional dan Release Party TeaLinux OS {{getenv('TEALINUXOS_VERSION')}}</h3>
+            <h3 class="headline-support wow fadeInDown">Seminar Nasional dan Release Party TeaLinux OS X</h3>
             <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">Open Source dan Kehidupan </h1>
             <div class="when_where wow fadeIn" data-wow-delay="0.4s">
                 <p class="event_when">13 Mei 2017</p>
@@ -32,7 +32,7 @@
             <div class="countdown_wrap">
                 <h6 class="countdown_title text-center">Acara akan berlangsung dalam</h6>
 
-                <ul id="countdown" data-event-date="Sep 5, 2018 15:37:25">
+                <ul id="countdown" data-event-date="May 13, 2018 15:37:25">
                     <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
                         <p class="timeRefDays">Hari</p>
                     </li>
@@ -56,36 +56,21 @@
             </div>
             <div class="speaker-slider">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+
+
+                    <div class="col-md-7 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0s">
                             <img src="{{asset ('images/pembicara/anjar-herdiana-coo-cloudkilat.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Anjar Hardiena</p>
-                            <span><b>COO</b> CloudKilat.com</span>
+                            <p>Rizki Dwi Kelimutu</p>
+                            <span><b>Senior Developer</b> </span>
                             <br/>
                             <br/>
                             <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara1">Lihat Profil</button>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                            <img src="{{asset ('images/pembicara/masas-dani-cto-gnews-id.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Masas Dani</p>
-                            <span><b>CTO </b> GNEWS.id</span>
-                            <br>
-                            <br/>
-                            <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara2">Lihat Profil</button>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                            <img src="{{asset ('images/pembicara/sokibi-penulis-buku-desain-grafis-dengan-opensource.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Sokibi</p>
-                            <span><b>Penulis</b> Buku Open Source</span>
-                            <br/>
-                            <br/>
-                            <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara3">Lihat Profil</button>
-                        </div>
-                    </div>
+
+
+
                     <div class="col-md-3 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
                             <img src="{{asset ('images/foto-team-doscom.png')}}" alt="avatar" class="img-responsive center-block">
@@ -119,7 +104,37 @@
 
                             <div class="timeline-content">
                                 <h2 class="wow flipInX" data-wow-delay="0.3s"> Registrasi Ulang</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">7:30</span>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">07:30</span>
+                            </div>
+
+                        </div>
+
+                        <div class="timeline-block">
+                            <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+                            </div>
+                            <div class="timeline-content">
+                              <h2 class="wow flipInX" data-wow-delay="0.3s">Pembukaan Acara</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">08:15</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-block">
+                            <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+                            </div>
+
+                            <div class="timeline-content">
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Launching Tea Linux OS X</h2>
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Oleh Project Manager TeaLinux OS X</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Fahri Firdausillah S.Kom, M.CS</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Ketua Umum DOSCOM</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Ketua Plaksana Release Party 2018</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Perwakilan UDINUS</p> 
+
+
+                                
+                                <span class="date wow flipInX" data-wow-delay="0.3s">08:50 </span>
                             </div>
 
                         </div>
@@ -129,9 +144,9 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source di bidang Cloud Computing</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Anjar Hardiena</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">08:30</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Pembahasan TeaLinux OS X </h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Project Manager TeaLinus OS X</p>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">09:20</span>
                             </div>
 
                         </div>
@@ -141,9 +156,10 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source Di Bidang Multimedia dan Design</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Sokibi</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">09:15 </span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Materi</h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Rizki Dwi Kelimutu</p>
+
+                                <span class="date wow flipInX" data-wow-delay="0.3s">09.40</span>
                             </div>
 
                         </div>
@@ -153,9 +169,8 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source Di Bidang Programming </h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Masas Dani</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">10:00</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Festival dan Games</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">10:20 </span>
                             </div>
 
                         </div>
@@ -165,18 +180,17 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Talk Show dengan 3 Pembicara</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">10:45</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Open Discussion dan Tea Break</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">10:40</span>
                             </div>
 
                         </div>
-
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Tea Break + Hiburan</h2>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Makan Bersama dan Hiburan </h2>
                                 <span class="date wow flipInX" data-wow-delay="0.3s">11:30 </span>
                             </div>
 
@@ -187,31 +201,38 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Release Party Tea LInux OS ke-{{getenv('TEALINUXOS_VERSION')}}</h2>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penyerahan Plakat Kepada Pemateri</h2>
                                 <span class="date wow flipInX" data-wow-delay="0.3s">12:00</span>
                             </div>
 
+
                         </div>
+
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Try Tea Linux OS {{getenv('TEALINUXOS_VERSION')}}</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">13:00 </span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penyerahan Doorprize dan Marchendise</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">12:00 </span>
                             </div>
 
                         </div>
+
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penutup dan pembagian Door Prize</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">13:15</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penutup</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">12:20 </span>
                             </div>
 
                         </div>
+
+
+
+
                     </section>
 
 
@@ -534,9 +555,10 @@
     <div id="pembicara1" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
+                
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <center><h4 class="modal-title">Anjar Hardiena</h4></center>
+                    <center><h4 class="modal-title">Rizki Dwi Kelimutu</h4></center>
                 </div>
                 <div class="modal-body">
                     <p><b>Pengalaman Kerja :</b></p>
