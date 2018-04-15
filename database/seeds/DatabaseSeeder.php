@@ -33,7 +33,7 @@ class UsersSeeder extends Seeder
 
         $user = [
             'Tea Admin'               => 'tea@doscom.org',
-            'Ahmad Basir'             => 'A15.2016.00515',
+            'Ahmad Basir'             => 'A15.2015.09101',
             'Dinia Kurnia'            => 'A11.2016.09772',
             'Yuliana Utari'           => 'A11.2015.08979',
             'Carissa Adila'           => 'A11.2016.09407',
