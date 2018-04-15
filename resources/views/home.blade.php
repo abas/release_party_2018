@@ -364,7 +364,7 @@
                         <img src="{{asset ('images/tiket.png')}}" alt="The Gleneagles Hotel" style="margin: 30px auto;">
                         <div class="caption">
                             <p class="caption-text">HTM</p>
-                            <h6 class="caption-title">Rp. 35.000,-</h6>
+                            <h6 class="caption-title">Rp. 40.000,-</h6>
 
                             <h6>Tempat Pendaftaran</h6>
 
