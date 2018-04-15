@@ -13,7 +13,7 @@
             <h3 class="headline-support wow fadeInDown">Release Party TeaLinux OS X</h3>
             <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinux and Collaboration</h1>
             <div class="when_where wow fadeIn" data-wow-delay="0.4s">
-                <p class="event_when">13 Mei 2017</p>
+                <p class="event_when">Sabtu, 12 Mei 2017</p>
                 <p class="event_where"><b>Semarang</b>, Indonesia</p>
             </div>
             <div class="header_bottom-bg">
@@ -32,7 +32,7 @@
             <div class="countdown_wrap">
                 <h6 class="countdown_title text-center">Acara akan berlangsung dalam</h6>
 
-                <ul id="countdown" data-event-date="May 13, 2018 15:37:25">
+                <ul id="countdown" data-event-date="May 12, 2018 07:00:00">
                     <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
                         <p class="timeRefDays">Hari</p>
                     </li>
@@ -60,7 +60,7 @@
 
                     <div class="col-md-7 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                            <img src="{{asset ('images/pembicara/.jpeg')}}" alt="avatar" class="img-responsive center-block">
+                            <img src="{{asset ('images/pembicara/pembicara.jpeg')}}" alt="avatar"  class="img-responsive center-block">
                             <p>Rizki Dwi Kelimutu</p>
                             <span><b>Pembicara</b> </span>
                             <br/>
@@ -366,6 +366,15 @@
                             <p class="caption-text">HTM</p>
                             <h6 class="caption-title">Rp. 35.000,-</h6>
 
+                            <h6>Tempat Pendaftaran</h6>
+
+                            <h6 class="caption-title" style="text-align: left; ">                                
+                                <ul>
+                                    <li>Stand gedung H, Lantai 1 </li>
+                                    <li>Camp Doscom ( Gedung D ,<br> Lantai 1 depan kantin <br> UDINUS)</li>
+                                </ul>
+                            </h6>
+
                         </div>
                     </div>
                 </div>
@@ -420,7 +429,7 @@
                         </div>
 
                         <div class="form-group has-info">
-                            <label class=""> DVD TeaLinux OS 8</label>
+                            <label class=""> DVD TeaLinux OS X</label>
 
                             <select class="form-control" name="dvd" required="required">
                                 <option value="">--Pilih--</option>
@@ -460,9 +469,8 @@
                     <div class="contact-box">
                         <img src="{{asset('images/kontak.png')}}" alt="email icon" class="wow zoomIn" data-wow-delay="0.3s">
                         <h5>KONTAK</h5>
-                        <p>Salamuddin - <b>0896 7565 7864</b>
-                            <br>Bona Deny - <b>0857 2910 0499</b>
-                            <br>Priyo - <b>0857 2767 6696</b>
+                        <p>Okta Arif Cahya - <b>089525997000</b>
+                            <br>Seviana Punky Brilianti - <b></b>
                             <br>Email : <a href="mailto:sekretariat@doscom.org?Subject=Release%20Party" target="_top">sekretariat@doscom.org</a>
                         </p>
                     </div>
@@ -483,7 +491,7 @@
                 <p>Acara ini terselenggara berkat dukungan berbagai pihak, Terimakasih.</p>
             </div>
             <div class="sponsor-slider wow bounceIn">
-                <div><a target="_blank" href="http://dinus.ac.id"> <img src="{{asset ('images/sponsor/udinus.png')}}" class="img-responsive center-block" alt="sponsor udinus"> </a></div>
+                <!-- <div><a target="_blank" href="http://dinus.ac.id"> <img src="{{asset ('images/sponsor/udinus.png')}}" class="img-responsive center-block" alt="sponsor udinus"> </a></div>
                 <div><a target="_blank" href="http://dinustek.com"><img src="{{asset ('images/sponsor/dinustek.png')}}" class="img-responsive center-block" alt="sponsor dinustek"></a>  </div>
                 <div><a target="_blank" href="http://www.sosro.com/"><img src="{{asset ('images/sponsor/sosro.png')}}" class="img-responsive center-block" alt="sponsor sosro"> </a> </div>
                 <div><a target="_blank" href="http://www.qwords.co.id/"><img src="{{asset ('images/sponsor/qwords.png')}}" class="img-responsive center-block" alt="sponsor qwords"></a>  </div>
@@ -495,7 +503,7 @@
                 <div><a target="_blank" href="http://www.cloudkilat.com/"><img src="{{asset ('images/sponsor/cloudkilat.png')}}" class="img-responsive center-block" alt="sponsor Cloud Kilat"> </a> </div>
                 <div><a target="_blank" href="http://moonshardstudio.com/"><img src="{{asset ('images/sponsor/moon-shard.png')}}" class="img-responsive center-block" alt="sponsor Moon Shard"></a>  </div>
                 <div><a target="_blank" href="http://webstudio.web.id/"><img src="{{asset ('images/sponsor/web-studio-logo.png')}}" class="img-responsive center-block" alt="sponsor Web Studio"></a>  </div>
-                <div><a target="_blank" href="http://tanibox.com/"><img src="{{asset ('images/sponsor/logo-tanibox.png')}}" class="img-responsive center-block" alt="sponsor Tani Box"></a>  </div>
+                <div><a target="_blank" href="http://tanibox.com/"><img src="{{asset ('images/sponsor/logo-tanibox.png')}}" class="img-responsive center-block" alt="sponsor Tani Box"></a>  </div> -->
 
             </div>
         </div>
@@ -543,7 +551,7 @@
     <section class="footer-action">
         <div class="container">
             <h4 class="headline-support wow fadeInDown">Ayo gabung dalam perayaan rilis produk anak bangsa</h4>
-            <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinuxOS {{getenv('TEALINUXOS_VERSION')}}</h2>
+            <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinuxOS X</h2>
             <div class="footer_bottom-bg">
                 <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#daftar">DAFTAR SEKARANG</a>
             </div>
@@ -663,7 +671,7 @@
                     <center><h4 class="modal-title">Kerjasama Sponsorship</h4></center>
                 </div>
                 <div class="modal-body">
-                    <p><center>Terimakasih telah mendukung acara ini, untuk kerjasama sponsorship, silahkan hubungi kami di <b>0896 7565 7864</b> -  Salamuddin atau melalui email : <a href="mailto:sekretariat@doscom.org?Subject=Kerjasama%20Sponsorship" target="_top">sekretariat@doscom.org</a></center> </p>
+                    <p><center>Terimakasih telah mendukung acara ini, untuk kerjasama sponsorship, silahkan hubungi kami di <b>083842620177</b> -  Hilmi Biya atau melalui email : <a href="mailto:sekretariat@doscom.org?Subject=Kerjasama%20Sponsorship" target="_top">sekretariat@doscom.org</a></center> </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
