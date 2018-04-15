@@ -10,10 +10,10 @@
                     </a>
                 </div>
             </div>
-            <h3 class="headline-support wow fadeInDown">Seminar Nasional dan Release Party TeaLinux OS {{getenv('TEALINUXOS_VERSION')}}</h3>
-            <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">Open Source dan Kehidupan </h1>
+            <h3 class="headline-support wow fadeInDown">Release Party TeaLinux OS X</h3>
+            <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinux and Collaboration</h1>
             <div class="when_where wow fadeIn" data-wow-delay="0.4s">
-                <p class="event_when">13 Mei 2017</p>
+                <p class="event_when">Sabtu, 12 Mei 2017</p>
                 <p class="event_where"><b>Semarang</b>, Indonesia</p>
             </div>
             <div class="header_bottom-bg">
@@ -28,11 +28,11 @@
 
     <section class="highlight">
         <div class="container">
-            <p class="lead text-center">Release Party TealinuxOS adalah acara yang diselenggarakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu acara tahunan Doscom untuk menarik pengguna baru serta mengedukasi masyarakat tentang Open Source.  </p>
+            <p class="lead text-center">Release Party TealinuxOS adalah acara yang diselenggarakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS X. Release Party telah menjadi suatu acara tahunan Doscom untuk menarik pengguna baru serta mengedukasi masyarakat tentang Open Source.  </p>
             <div class="countdown_wrap">
                 <h6 class="countdown_title text-center">Acara akan berlangsung dalam</h6>
 
-                <ul id="countdown" data-event-date="Sep 5, 2018 15:37:25">
+                <ul id="countdown" data-event-date="May 12, 2018 07:00:00">
                     <li class="wow zoomIn" data-wow-delay="0s"> <span class="days">00</span>
                         <p class="timeRefDays">Hari</p>
                     </li>
@@ -56,39 +56,24 @@
             </div>
             <div class="speaker-slider">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+
+
+                    <div class="col-md-7 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                            <img src="{{asset ('images/pembicara/anjar-herdiana-coo-cloudkilat.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Anjar Hardiena</p>
-                            <span><b>COO</b> CloudKilat.com</span>
+                            <img src="{{asset ('images/pembicara/pembicara.jpeg')}}" alt="avatar"  class="img-responsive center-block">
+                            <p>Rizki Dwi Kelimutu</p>
+                            <span><b>Pembicara</b> </span>
                             <br/>
                             <br/>
                             <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara1">Lihat Profil</button>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                            <img src="{{asset ('images/pembicara/masas-dani-cto-gnews-id.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Masas Dani</p>
-                            <span><b>CTO </b> GNEWS.id</span>
-                            <br>
-                            <br/>
-                            <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara2">Lihat Profil</button>
-                        </div>
-                    </div>
+
+
+
                     <div class="col-md-3 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                            <img src="{{asset ('images/pembicara/sokibi-penulis-buku-desain-grafis-dengan-opensource.jpeg')}}" alt="avatar" class="img-responsive center-block">
-                            <p>Sokibi</p>
-                            <span><b>Penulis</b> Buku Open Source</span>
-                            <br/>
-                            <br/>
-                            <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara3">Lihat Profil</button>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                            <img src="{{asset ('images/foto-team-doscom.png')}}" alt="avatar" class="img-responsive center-block">
+                            <img src="{{asset ('images/doscom.png')}}" alt="avatar" class="img-responsive center-block">
                             <p>Team Doscom</p>
                             <span><b>Developer</b> TeaLinuxOS</span>
                             <br/>
@@ -119,7 +104,37 @@
 
                             <div class="timeline-content">
                                 <h2 class="wow flipInX" data-wow-delay="0.3s"> Registrasi Ulang</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">7:30</span>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">07:30</span>
+                            </div>
+
+                        </div>
+
+                        <div class="timeline-block">
+                            <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+                            </div>
+                            <div class="timeline-content">
+                              <h2 class="wow flipInX" data-wow-delay="0.3s">Pembukaan Acara</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">08:15</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-block">
+                            <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+                            </div>
+
+                            <div class="timeline-content">
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Launching Tea Linux OS X</h2>
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Oleh Project Manager TeaLinux OS X</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Fahri Firdausillah S.Kom, M.CS</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Ketua Umum DOSCOM</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Ketua Plaksana Release Party 2018</p> 
+                                 <p class="wow flipInX" data-wow-delay="0.3s">Perwakilan UDINUS</p> 
+
+
+                                
+                                <span class="date wow flipInX" data-wow-delay="0.3s">08:50 </span>
                             </div>
 
                         </div>
@@ -129,9 +144,9 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source di bidang Cloud Computing</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Anjar Hardiena</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">08:30</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Pembahasan TeaLinux OS X </h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Project Manager TeaLinus OS X</p>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">09:20</span>
                             </div>
 
                         </div>
@@ -141,9 +156,10 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source Di Bidang Multimedia dan Design</h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Sokibi</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">09:15 </span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Materi</h2>
+                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Rizki Dwi Kelimutu</p>
+
+                                <span class="date wow flipInX" data-wow-delay="0.3s">09.40</span>
                             </div>
 
                         </div>
@@ -153,9 +169,8 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Materi Open Source Di Bidang Programming </h2>
-                                <p class="wow flipInX" data-wow-delay="0.3s">oleh Masas Dani</p>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">10:00</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Festival dan Games</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">10:20 </span>
                             </div>
 
                         </div>
@@ -165,18 +180,17 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Talk Show dengan 3 Pembicara</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">10:45</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Open Discussion dan Tea Break</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">10:40</span>
                             </div>
 
                         </div>
-
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Tea Break + Hiburan</h2>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Makan Bersama dan Hiburan </h2>
                                 <span class="date wow flipInX" data-wow-delay="0.3s">11:30 </span>
                             </div>
 
@@ -187,31 +201,38 @@
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Release Party Tea LInux OS ke-{{getenv('TEALINUXOS_VERSION')}}</h2>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penyerahan Plakat Kepada Pemateri</h2>
                                 <span class="date wow flipInX" data-wow-delay="0.3s">12:00</span>
                             </div>
 
+
                         </div>
+
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s"> Try Tea Linux OS {{getenv('TEALINUXOS_VERSION')}}</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">13:00 </span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penyerahan Doorprize dan Marchendise</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">12:00 </span>
                             </div>
 
                         </div>
+
                         <div class="timeline-block">
                             <div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
                             </div>
 
                             <div class="timeline-content">
-                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penutup dan pembagian Door Prize</h2>
-                                <span class="date wow flipInX" data-wow-delay="0.3s">13:15</span>
+                                <h2 class="wow flipInX" data-wow-delay="0.3s">Penutup</h2>
+                                <span class="date wow flipInX" data-wow-delay="0.3s">12:20 </span>
                             </div>
 
                         </div>
+
+
+
+
                     </section>
 
 
@@ -324,11 +345,11 @@
                             <h6 class="caption-title" style="text-align: left; ">
                                 <ul>
                                     <li>Sertifikat Nasional</li>
-                                    <li>DVD Exclusive TeaLinux OS {{getenv('TEALINUXOS_VERSION')}}</li>
+                                    <li>DVD Exclusive TeaLinuxOS X</li>
                                     <li>Snack + Tea Break</li>
                                     <li>Makan Siang</li>
                                     <li>Ilmu + Pengalaman</li>
-                                    <li>Doorprize <br>berupa Smart Watch *</li>
+                                    <li>Doorprize*</li>
                                 </ul>
 
                             </h6>
@@ -343,7 +364,16 @@
                         <img src="{{asset ('images/tiket.png')}}" alt="The Gleneagles Hotel" style="margin: 30px auto;">
                         <div class="caption">
                             <p class="caption-text">HTM</p>
-                            <h6 class="caption-title">Rp. 45.000,-</h6>
+                            <h6 class="caption-title">Rp. 40.000,-</h6>
+
+                            <h6>Tempat Pendaftaran</h6>
+
+                            <h6 class="caption-title" style="text-align: left; ">                                
+                                <ul>
+                                    <li>Stand gedung H, Lantai 1 </li>
+                                    <li>Camp Doscom ( Gedung D ,<br> Lantai 1 depan kantin <br> UDINUS)</li>
+                                </ul>
+                            </h6>
 
                         </div>
                     </div>
@@ -399,7 +429,7 @@
                         </div>
 
                         <div class="form-group has-info">
-                            <label class=""> DVD TeaLinux OS 8</label>
+                            <label class=""> DVD TeaLinux OS X</label>
 
                             <select class="form-control" name="dvd" required="required">
                                 <option value="">--Pilih--</option>
@@ -439,9 +469,8 @@
                     <div class="contact-box">
                         <img src="{{asset('images/kontak.png')}}" alt="email icon" class="wow zoomIn" data-wow-delay="0.3s">
                         <h5>KONTAK</h5>
-                        <p>Salamuddin - <b>0896 7565 7864</b>
-                            <br>Bona Deny - <b>0857 2910 0499</b>
-                            <br>Priyo - <b>0857 2767 6696</b>
+                        <p>Okta Arif Cahya - <b>089525997000</b>
+                            <br>Seviana Punky Brilianti - <b></b>
                             <br>Email : <a href="mailto:sekretariat@doscom.org?Subject=Release%20Party" target="_top">sekretariat@doscom.org</a>
                         </p>
                     </div>
@@ -462,7 +491,7 @@
                 <p>Acara ini terselenggara berkat dukungan berbagai pihak, Terimakasih.</p>
             </div>
             <div class="sponsor-slider wow bounceIn">
-                <div><a target="_blank" href="http://dinus.ac.id"> <img src="{{asset ('images/sponsor/udinus.png')}}" class="img-responsive center-block" alt="sponsor udinus"> </a></div>
+                <!-- <div><a target="_blank" href="http://dinus.ac.id"> <img src="{{asset ('images/sponsor/udinus.png')}}" class="img-responsive center-block" alt="sponsor udinus"> </a></div>
                 <div><a target="_blank" href="http://dinustek.com"><img src="{{asset ('images/sponsor/dinustek.png')}}" class="img-responsive center-block" alt="sponsor dinustek"></a>  </div>
                 <div><a target="_blank" href="http://www.sosro.com/"><img src="{{asset ('images/sponsor/sosro.png')}}" class="img-responsive center-block" alt="sponsor sosro"> </a> </div>
                 <div><a target="_blank" href="http://www.qwords.co.id/"><img src="{{asset ('images/sponsor/qwords.png')}}" class="img-responsive center-block" alt="sponsor qwords"></a>  </div>
@@ -474,7 +503,7 @@
                 <div><a target="_blank" href="http://www.cloudkilat.com/"><img src="{{asset ('images/sponsor/cloudkilat.png')}}" class="img-responsive center-block" alt="sponsor Cloud Kilat"> </a> </div>
                 <div><a target="_blank" href="http://moonshardstudio.com/"><img src="{{asset ('images/sponsor/moon-shard.png')}}" class="img-responsive center-block" alt="sponsor Moon Shard"></a>  </div>
                 <div><a target="_blank" href="http://webstudio.web.id/"><img src="{{asset ('images/sponsor/web-studio-logo.png')}}" class="img-responsive center-block" alt="sponsor Web Studio"></a>  </div>
-                <div><a target="_blank" href="http://tanibox.com/"><img src="{{asset ('images/sponsor/logo-tanibox.png')}}" class="img-responsive center-block" alt="sponsor Tani Box"></a>  </div>
+                <div><a target="_blank" href="http://tanibox.com/"><img src="{{asset ('images/sponsor/logo-tanibox.png')}}" class="img-responsive center-block" alt="sponsor Tani Box"></a>  </div> -->
 
             </div>
         </div>
@@ -522,7 +551,7 @@
     <section class="footer-action">
         <div class="container">
             <h4 class="headline-support wow fadeInDown">Ayo gabung dalam perayaan rilis produk anak bangsa</h4>
-            <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinuxOS {{getenv('TEALINUXOS_VERSION')}}</h2>
+            <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinuxOS X</h2>
             <div class="footer_bottom-bg">
                 <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#daftar">DAFTAR SEKARANG</a>
             </div>
@@ -534,26 +563,20 @@
     <div id="pembicara1" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
+                
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <center><h4 class="modal-title">Anjar Hardiena</h4></center>
+                    <center><h4 class="modal-title">Rizki Dwi Kelimutu</h4></center>
                 </div>
                 <div class="modal-body">
-                    <p><b>Pengalaman Kerja :</b></p>
+                    <p><b>Pengalaman :</b></p>
                     <ul>
-                        <li>Chief Operating Officer <a href="http://cloudkilat.com">CLOUDKILAT</a>  (2014 ~ sekarang)</li>
-                        <li>Chief Linux PT. INFINSYS SYSTEM INDONESIA(2011 ~ Sekarang)</li>
-                        <li>Staff Ahli Direktorat SIPLK bidang Open Source Software(2009 ~ 2011)</li>
-                        <li>Koordinator IGOS Center Bekasi Kementrian Riset dan Teknologi(2009 ~ Sekarang)</li>
+                        <li>Bugzilla Koordinator Mozila Corp</li>
+                        <li>Pembicara Gnome Asia Summit 2017</li>
                     </ul>
                     <br>
-                    <p><b>Penghargaan :</b></p>
-                    <ul>
-                        <li>Penghargaan oleh Pemerintah Indonesia dari MENKOMINFO 2008</li>
-                        <li>Komite Penggerak Indonesia Linux Conference(2014, 2015)</li>
-                        <li>Peserta Konfrensi Asia Afrika tentang Open Source 2008</li>
-                        <li>Wakil Ketua Divisi IT dari berbagai acara OpensourceNasional & internasional.</li>
-                    </ul>
+
+            
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
@@ -648,7 +671,7 @@
                     <center><h4 class="modal-title">Kerjasama Sponsorship</h4></center>
                 </div>
                 <div class="modal-body">
-                    <p><center>Terimakasih telah mendukung acara ini, untuk kerjasama sponsorship, silahkan hubungi kami di <b>0896 7565 7864</b> -  Salamuddin atau melalui email : <a href="mailto:sekretariat@doscom.org?Subject=Kerjasama%20Sponsorship" target="_top">sekretariat@doscom.org</a></center> </p>
+                    <p><center>Terimakasih telah mendukung acara ini, untuk kerjasama sponsorship, silahkan hubungi kami di <b>083842620177</b> -  Hilmi Biya atau melalui email : <a href="mailto:sekretariat@doscom.org?Subject=Kerjasama%20Sponsorship" target="_top">sekretariat@doscom.org</a></center> </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
