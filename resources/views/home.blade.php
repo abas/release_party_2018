@@ -10,8 +10,8 @@
                     </a>
                 </div>
             </div>
-            <h3 class="headline-support wow fadeInDown">Seminar Nasional dan Release Party TeaLinux OS X</h3>
-            <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">Open Source dan Kehidupan </h1>
+            <h3 class="headline-support wow fadeInDown">Release Party TeaLinux OS X</h3>
+            <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">TeaLinux and Collaboration</h1>
             <div class="when_where wow fadeIn" data-wow-delay="0.4s">
                 <p class="event_when">13 Mei 2017</p>
                 <p class="event_where"><b>Semarang</b>, Indonesia</p>
@@ -28,7 +28,7 @@
 
     <section class="highlight">
         <div class="container">
-            <p class="lead text-center">Release Party TealinuxOS adalah acara yang diselenggarakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu acara tahunan Doscom untuk menarik pengguna baru serta mengedukasi masyarakat tentang Open Source.  </p>
+            <p class="lead text-center">Release Party TealinuxOS adalah acara yang diselenggarakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS X. Release Party telah menjadi suatu acara tahunan Doscom untuk menarik pengguna baru serta mengedukasi masyarakat tentang Open Source.  </p>
             <div class="countdown_wrap">
                 <h6 class="countdown_title text-center">Acara akan berlangsung dalam</h6>
 
@@ -60,9 +60,9 @@
 
                     <div class="col-md-7 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                            <img src="{{asset ('images/pembicara/anjar-herdiana-coo-cloudkilat.jpeg')}}" alt="avatar" class="img-responsive center-block">
+                            <img src="{{asset ('images/pembicara/.jpeg')}}" alt="avatar" class="img-responsive center-block">
                             <p>Rizki Dwi Kelimutu</p>
-                            <span><b>Senior Developer</b> </span>
+                            <span><b>Pembicara</b> </span>
                             <br/>
                             <br/>
                             <button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#pembicara1">Lihat Profil</button>
@@ -73,7 +73,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                            <img src="{{asset ('images/foto-team-doscom.png')}}" alt="avatar" class="img-responsive center-block">
+                            <img src="{{asset ('images/doscom.png')}}" alt="avatar" class="img-responsive center-block">
                             <p>Team Doscom</p>
                             <span><b>Developer</b> TeaLinuxOS</span>
                             <br/>
@@ -345,11 +345,11 @@
                             <h6 class="caption-title" style="text-align: left; ">
                                 <ul>
                                     <li>Sertifikat Nasional</li>
-                                    <li>DVD Exclusive TeaLinux OS {{getenv('TEALINUXOS_VERSION')}}</li>
+                                    <li>DVD Exclusive TeaLinuxOS X</li>
                                     <li>Snack + Tea Break</li>
                                     <li>Makan Siang</li>
                                     <li>Ilmu + Pengalaman</li>
-                                    <li>Doorprize <br>berupa Smart Watch *</li>
+                                    <li>Doorprize*</li>
                                 </ul>
 
                             </h6>
@@ -364,7 +364,7 @@
                         <img src="{{asset ('images/tiket.png')}}" alt="The Gleneagles Hotel" style="margin: 30px auto;">
                         <div class="caption">
                             <p class="caption-text">HTM</p>
-                            <h6 class="caption-title">Rp. 45.000,-</h6>
+                            <h6 class="caption-title">Rp. 35.000,-</h6>
 
                         </div>
                     </div>
@@ -561,21 +561,14 @@
                     <center><h4 class="modal-title">Rizki Dwi Kelimutu</h4></center>
                 </div>
                 <div class="modal-body">
-                    <p><b>Pengalaman Kerja :</b></p>
+                    <p><b>Pengalaman :</b></p>
                     <ul>
-                        <li>Chief Operating Officer <a href="http://cloudkilat.com">CLOUDKILAT</a>  (2014 ~ sekarang)</li>
-                        <li>Chief Linux PT. INFINSYS SYSTEM INDONESIA(2011 ~ Sekarang)</li>
-                        <li>Staff Ahli Direktorat SIPLK bidang Open Source Software(2009 ~ 2011)</li>
-                        <li>Koordinator IGOS Center Bekasi Kementrian Riset dan Teknologi(2009 ~ Sekarang)</li>
+                        <li>Bugzilla Koordinator Mozila Corp</li>
+                        <li>Pembicara Gnome Asia Summit 2017</li>
                     </ul>
                     <br>
-                    <p><b>Penghargaan :</b></p>
-                    <ul>
-                        <li>Penghargaan oleh Pemerintah Indonesia dari MENKOMINFO 2008</li>
-                        <li>Komite Penggerak Indonesia Linux Conference(2014, 2015)</li>
-                        <li>Peserta Konfrensi Asia Afrika tentang Open Source 2008</li>
-                        <li>Wakil Ketua Divisi IT dari berbagai acara OpensourceNasional & internasional.</li>
-                    </ul>
+
+            
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
