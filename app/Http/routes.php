@@ -189,11 +189,3 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::get('/admin/login',function(){
     return view('auth.login');
 });
-
-// doscomediabot
-// Route::group(['prefix'=>'botv1'],function(){
-//     Route::get(
-//         '/daftar/{nama}/{nohp}/{email}/{status}/{arc}/{instansi}',
-//         'BotDoscomediaController@store'
-//     );
-// });

@@ -251,7 +251,7 @@
         <div class="container">
             <div class="section-title">
                 <h4>GALERI</h4>
-                <p>Dokumentasi release party Tealinux OS versi 8 (tahun lalu)</p>
+                <p>Dokumentasi release party Tealinux OS</p>
 
             </div>
             <div class="nav-center bottom-space-lg">
