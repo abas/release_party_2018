@@ -467,7 +467,7 @@
                                                                 <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                                                     <tr>
                                                                         <td align="center">
-                                                                            <a href="http://tealinuxos.org/release/konfirmasi"
+                                                                            <a href="http://tealinuxos.org/konfirmasi"
                                                                                 target="_blank" style="font-size: 15px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #5D9CEC; border-top: 10px solid #5D9CEC; border-bottom: 10px solid #5D9CEC; border-left: 20px solid #5D9CEC; border-right: 20px solid #5D9CEC; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;"
                                                                                 class="mobile-button">Konfirmasi Pembayaran &rarr;</a>
                                                                         </td>
