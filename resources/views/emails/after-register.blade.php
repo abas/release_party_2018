@@ -504,14 +504,14 @@
                             <a href="mailto:sekretariat@doscom.org?Subject=Release%20Party" target="_top">sekretariat@doscom.org</a>
                         </td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                         <td align="center" style="padding: 30px 10px 10px 10px; font-size: 21px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #4EAE49;"
                             class="padding-copy" colspan="2">
                             <b>Bagikan informasi acara ini dan raih kesempatan
                                 <span style="color: rgba(4, 22, 21, 0.87);">mendapatkan SmartBand </span>
                             </b>
                         </td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td align="center" style="padding: 0 0 10px 0px; font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;"
                             class="padding-copy" colspan="2">
