@@ -60,7 +60,7 @@
                     <ul>
                         <li>Mengunggah bukti transfer he <a href="{{ url('/konfirmasi') }}">halaman konfirmasi </a> , atau </li>
                         <li>Kirim sms dengan format "Nama Peserta &#60;spasi&#62; Nama bank pengirim &#60;spasi&#62; Atas nama pengirim" , atau</li>
-                        <li>Langsung hubungi kami, Salamuddin - <b>0896 7565 7864 </b> / Email : <a href="mailto:sekretariat@doscom.org?Subject=Release%20Party" target="_top">sekretariat@doscom.org</a></li>
+                        <li>Langsung hubungi kami, Sri Wulan - <b>0898 4752 473 </b> / Email : <a href="mailto:sekretariat@doscom.org?Subject=Release%20Party" target="_top">sekretariat@doscom.org</a></li>
                     </ul>
                 </li>
                 <li>Tunggu maximal 1 x 24 Jam, untuk kami melakukan pengecekan lalu kami akan menghubungimu ( :</li>
