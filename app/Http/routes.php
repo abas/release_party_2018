@@ -189,3 +189,7 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::get('/admin/login',function(){
     return view('auth.login');
 });
+
+Route::get('cekhalam',function(){
+    return view('emails.lunas');
+});
