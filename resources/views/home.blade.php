@@ -417,7 +417,7 @@
         <p>Jadi saksi perayaan di rilisnya TeaLinuxOS versi terbaru.</p>
         
         {{-- bila sudah tutup --}}
-        @if(\App\Peserta::all()->count() > 1)
+        @if(\App\Peserta::all()->count() > 30)
         <h6>Maaf, pendaftaran telah kami tutup, karena kuota peserta telah terpenuhi.
             <br/>
             <span style="color: #4eae49;">Bagi anda yang telah mendaftar namun belum membayar, silahkan segera lakukan pembayaran. </span>
