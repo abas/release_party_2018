@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    @yield('meta')
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> @yield('meta')
     <meta name="author" content="Diky Arga">
-    <meta name="description" content="Release Party TealinuxOS Sebuah kegiatan peluncuran yang diadakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu tradisi tahunan doscom untuk menarik pengguna baru atau masyarakat yang potensial guna meningkatkan publikasi TeaLinuxOS."/>
-    <meta name="keywords" content="release, tealinuxos, doscom, udinus, open-source "/>
+    <meta name="description" content="Release Party TealinuxOS Sebuah kegiatan peluncuran yang diadakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu tradisi tahunan doscom untuk menarik pengguna baru atau masyarakat yang potensial guna meningkatkan publikasi TeaLinuxOS."
+    />
+    <meta name="keywords" content="release, tealinuxos, doscom, udinus, open-source " />
     <meta property="og:title" content="Seminar Nasional Release Party TeaLinux OS {{getenv('TEALINUXOS_VERSION')}}" />
-    <meta property="og:description" content="Release Party TealinuxOS Sebuah kegiatan peluncuran yang diadakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu tradisi tahunan doscom untuk menarik pengguna baru atau masyarakat yang potensial guna meningkatkan publikasi TeaLinuxOS." />
+    <meta property="og:description" content="Release Party TealinuxOS Sebuah kegiatan peluncuran yang diadakan oleh Doscom (Dinus Open Source Community) untuk merayakan peluncuran TeaLinuxOS versi {{getenv('TEALINUXOS_VERSION')}}. Release Party telah menjadi suatu tradisi tahunan doscom untuk menarik pengguna baru atau masyarakat yang potensial guna meningkatkan publikasi TeaLinuxOS."
+    />
     <style media="screen">
-        .caption-title{
+        .caption-title {
             line-height: 1.6;
         }
     </style>
@@ -26,10 +27,10 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <link href="{{ asset('css/plugins/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/plugins/slick.css')}}" rel="stylesheet">
-    {{--<link href="{{ asset('css/plugins/magnific-popup.css')}}" rel="stylesheet">--}}
-    <link href="{{ asset('css/plugins/font-awesome.css')}}" rel="stylesheet">
-    {{--<link href="{{ asset('css/plugins/streamline-icons.css')}}" rel="stylesheet">--}}
+    <link href="{{ asset('css/plugins/slick.css')}}" rel="stylesheet"> {{--
+    <link href="{{ asset('css/plugins/magnific-popup.css')}}" rel="stylesheet">--}}
+    <link href="{{ asset('css/plugins/font-awesome.css')}}" rel="stylesheet"> {{--
+    <link href="{{ asset('css/plugins/streamline-icons.css')}}" rel="stylesheet">--}}
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
@@ -90,13 +91,12 @@
                         <li role="separator" class="divider"></li>
                         <li class="dropdown-header">Sesudah bayar</li>
 
-                        <li><a href="{{{ url('/auth/logout') }}}">Keluar</a>
-                        </li>
+                        <li><a href="{{{ url('/auth/logout') }}}">Keluar</a></li>
 
-                        </li>
                     </ul>
+                </li>
+            <ul>
         </div>
-
     </div>
 </nav>
 
