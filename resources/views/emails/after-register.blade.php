@@ -207,7 +207,7 @@
                                     <tr>
                                         <td bgcolor="#ffffff" width="100" align="left">
                                             <a href="http://doscom.org" target="_blank">
-                                                <img alt="Logo" src="http://tealinuxos.org/release/images/logo-doscom-plus-text.png"
+                                                <img alt="Logo" src="http://party.tealinuxos.org/images/logo-doscom-plus-text.png"
                                                     width="78" height="128" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #666666; font-size: 16px;"
                                                     border="0">
                                             </a>
@@ -377,7 +377,7 @@
                     <tr>
                         <td align="left" style="padding: 0 0 10px 0px; font-size: 20px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;"
                             class="padding-copy" colspan="2">segera lakukan pembayaran sejumlah
-                            <b>Rp. 45.000</b>,-dengan salah satu metode pembayaran berikut ini : </td>
+                            <b>Rp. 40.000</b>,-dengan salah satu metode pembayaran berikut ini : </td>
                     </tr>
                     <tr>
                         <td valign="top" style="padding: 40px 0 0 0;" class="mobile-hide">
