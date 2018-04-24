@@ -388,12 +388,12 @@
             <h5>DAFTAR SEKARANG</h5>
             <p>Jadi saksi perayaan di rilisnya TeaLinuxOS versi terbaru.</p>
             {{-- bila sudah tutup --}}
-            {{-- <h6>Maaf, pendaftaran telah kami tutup, karena kuota peserta telah terpenuhi. <br/>
-                <span style="color: #4eae49;">Bagi anda yang telah mendaftar namun belum membayar, silahkan segera lakukan pembayaran. </span><br/>Jika ada pertanyaan, silahkan hubungi kontak dibawah. Terimakasih (: </h6> --}}
+            <h6>Maaf, pendaftaran telah kami tutup, karena kuota peserta telah terpenuhi. <br/>
+                <span style="color: #4eae49;">Bagi anda yang telah mendaftar namun belum membayar, silahkan segera lakukan pembayaran. </span><br/>Jika ada pertanyaan, silahkan hubungi kontak dibawah. Terimakasih (: </h6> 
         </div>
 
         {{-- pendaftaran masih buka --}}
-        <div class="contact-form bottom-space-xl wow fadeInUp">
+        {{-- <div class="contact-form bottom-space-xl wow fadeInUp">
             <form action="{{ url('terimakasih')}}" id="" method="POST">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="row">
@@ -447,7 +447,7 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> --}}
 
 
     </div>
