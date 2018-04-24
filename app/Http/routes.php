@@ -193,3 +193,17 @@ Route::get('/admin/login',function(){
 Route::get('cekhalam',function(){
     return view('emails.lunas');
 });
+
+
+Route::get('/tea-nomor-peserta',function(){
+    $pesertas = \App\Peserta::all();
+    $phone_number = [];
+    echo "============================<br>";
+    echo "| dear humas ku tersayaang~<br>";
+    echo "| pastekan list nomor beriku di colom pesan | <br>";
+    echo "============================<br><br>";
+    foreach ($pesertas as $data) {
+        // array_push($phone_number,$data->no_hp);
+        echo $data->no_hp.',';
+    }
+});

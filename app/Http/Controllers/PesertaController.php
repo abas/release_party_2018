@@ -76,11 +76,12 @@ class PesertaController extends Controller
         $pesetas = Peserta::all()->count();
 
         //dd($peserta_lunas . " " . $peserta_belum_lunas);
-        return view('peserta.report')->withPeserta_lunas($peserta_lunas)
-                                     ->withPeserta_belum_lunas($peserta_belum_lunas)
-                                     ->withPesertas($pesetas)
-            ->withTigadua($tigadua)
-            ->withEnamempat($enamempat); 
+        return view('peserta.report')
+                                    ->withPeserta_lunas($peserta_lunas)
+                                    ->withPeserta_belum_lunas($peserta_belum_lunas)
+                                    ->withPesertas($pesetas)
+                                    ->withTigadua($tigadua)
+                                    ->withEnamempat($enamempat); 
     }
 
     public function chart()
