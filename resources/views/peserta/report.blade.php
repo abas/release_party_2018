@@ -42,7 +42,7 @@
                         <h4>32 Bit</h4>
                     </div>
                     <div class="row">
-                        <h4 style="color: #4eae49; ">{{ $tigadua }}</h4>
+                        <h4 style="color: #4eae49; ">{{ $tigadua }}</h4> fix
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -50,7 +50,7 @@
                         <h4>64 Bit</h4>
                     </div>
                     <div class="row">
-                        <h4 style="color: #4eae49; ">{{ $enamempat }}</h4>
+                        <h4 style="color: #4eae49; ">{{ $enamempat }}</h4> fix
                     </div>
                 </div>
             </div>
