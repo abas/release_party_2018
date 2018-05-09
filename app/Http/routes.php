@@ -15,7 +15,10 @@ Route::get('/', function(){
   return view('home');
 });
 
-
+Route::get('/zax/tamu',function(){
+    $title = "Tamu Undangan";
+    return view('form-tamu',compact('title'));
+});
 
 
 $api = app('Dingo\Api\Routing\Router');
