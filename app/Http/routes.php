@@ -216,7 +216,6 @@ Route::get('/tea-export-data/peserta',function(){
     $peserta = \App\Peserta::where('status','!=','komunitas')
                             ->where('status','!=','delegasi')
                             ->get();
-                            return $peserta;
                             
     $file="tea-data-peserta-2018.xls";
     header("Content-type: application/vnd.ms-excel");
@@ -241,7 +240,6 @@ Route::get('/tea-export-data/peserta',function(){
 Route::get('/tea-export-data/delegasi',function(){
     $peserta = \App\Peserta::where('status','=','delegasi')
                             ->get();
-                            return $peserta;
                             
     $file="tea-data-peserta-2018.xls";
     header("Content-type: application/vnd.ms-excel");
@@ -266,7 +264,6 @@ Route::get('/tea-export-data/delegasi',function(){
 Route::get('/tea-export-data/komunitas',function(){
     $peserta = \App\Peserta::where('status','=','komunitas')
                             ->get();
-                            return $peserta;
                             
     $file="tea-data-peserta-2018.xls";
     header("Content-type: application/vnd.ms-excel");
