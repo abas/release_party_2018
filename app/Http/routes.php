@@ -241,7 +241,7 @@ Route::get('/tea-export-data/delegasi',function(){
     $peserta = \App\Peserta::where('status','=','delegasi')
                             ->get();
                             
-    $file="tea-data-peserta-2018.xls";
+    $file="tea-data-delegasi-2018.xls";
     header("Content-type: application/vnd.ms-excel");
     header("Content-Disposition: attachment; filename=$file");
     echo "<table>
@@ -265,7 +265,7 @@ Route::get('/tea-export-data/komunitas',function(){
     $peserta = \App\Peserta::where('status','=','komunitas')
                             ->get();
                             
-    $file="tea-data-peserta-2018.xls";
+    $file="tea-data-komunitas-2018.xls";
     header("Content-type: application/vnd.ms-excel");
     header("Content-Disposition: attachment; filename=$file");
     echo "<table>
