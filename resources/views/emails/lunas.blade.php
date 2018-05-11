@@ -259,7 +259,7 @@
                                             </tr>
                                             <tr>
                                                 <td align="center" style="font-size: 22px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;"
-                                                    class="padding-copy">Telah melunasi pembayaran untuk acara Seminar Nasional dan Release Party
+                                                    class="padding-copy">Telah ikut berkontribusi dalam event Release Party
                                                     TeaLinuxOS {{getenv('TEALINUXOS_VERSION')}}</td>
                                             </tr>
                                             <tr>
@@ -308,12 +308,6 @@
                                                 <td align="left" style="padding: 5px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;"
                                                     class="padding-copy">Email :
                                                     <b> {{ $email }} </b>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" style="padding: 5px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;"
-                                                    class="padding-copy">Status :
-                                                    <b> {{ $status }} </b>
                                                 </td>
                                             </tr>
                                             <tr>

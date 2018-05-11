@@ -41,6 +41,7 @@ $api->version('v1', function ($api) {
 });
 
 Route::post('terimakasih','PesertaController@store');
+Route::post('terimakasihTamu','PesertaController@storeTamu');
 
 // konfirmasi
 //Route::get('konfirmasi', 'PesertaController@show_konfirmasi');
