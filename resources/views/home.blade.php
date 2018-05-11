@@ -533,19 +533,18 @@
             <p>Acara ini terselenggara berkat dukungan berbagai pihak, Terimakasih.</p>
         </div>
         <div class="sponsor-slider wow bounceIn">
-            <!-- <div><a target="_blank" href="http://dinus.ac.id"> <img src="{{asset ('images/sponsor/udinus.png')}}" class="img-responsive center-block" alt="sponsor udinus"> </a></div>
                 <div><a target="_blank" href="http://dinustek.com"><img src="{{asset ('images/sponsor/dinustek.png')}}" class="img-responsive center-block" alt="sponsor dinustek"></a>  </div>
-                <div><a target="_blank" href="http://www.sosro.com/"><img src="{{asset ('images/sponsor/sosro.png')}}" class="img-responsive center-block" alt="sponsor sosro"> </a> </div>
-                <div><a target="_blank" href="http://www.qwords.co.id/"><img src="{{asset ('images/sponsor/qwords.png')}}" class="img-responsive center-block" alt="sponsor qwords"></a>  </div>
-                <div><a target="_blank" href="http://tvku.tv/"><img src="{{asset ('images/sponsor/tvku.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
-                <div><a target="_blank" href="http://www.rri.co.id/home.html"><img src="{{asset ('images/sponsor/rri.png')}}" class="img-responsive center-block" alt="sponsor rri"> </a> </div>
                 <div><a target="_blank" href="http://www.clowordistro.com/"><img src="{{asset ('images/sponsor/new-clowor-logo.png')}}" class="img-responsive center-block" alt="sponsor clowor"></a>  </div>
-                <div><a target="_blank" href="http://gnews.id/"><img src="{{asset ('images/sponsor/gnews.png')}}" class="img-responsive center-block" alt="sponsor gnews"></a>  </div>
                 <div><a target="_blank" href="http://bankjateng.co.id/"><img src="{{asset ('images/sponsor/bank-jateng.png')}}" class="img-responsive center-block" alt="sponsor Bank Jateng"></a>  </div>
-                <div><a target="_blank" href="http://www.cloudkilat.com/"><img src="{{asset ('images/sponsor/cloudkilat.png')}}" class="img-responsive center-block" alt="sponsor Cloud Kilat"> </a> </div>
-                <div><a target="_blank" href="http://moonshardstudio.com/"><img src="{{asset ('images/sponsor/moon-shard.png')}}" class="img-responsive center-block" alt="sponsor Moon Shard"></a>  </div>
-                <div><a target="_blank" href="http://webstudio.web.id/"><img src="{{asset ('images/sponsor/web-studio-logo.png')}}" class="img-responsive center-block" alt="sponsor Web Studio"></a>  </div>
-                <div><a target="_blank" href="http://tanibox.com/"><img src="{{asset ('images/sponsor/logo-tanibox.png')}}" class="img-responsive center-block" alt="sponsor Tani Box"></a>  </div> -->
+                <div><a target="_blank" href="http://maintarget.co/"><img src="{{asset ('images/sponsor/mailtarget.png')}}" class="img-responsive center-block" alt="sponsor mailtarget"></a>  </div>
+                <div><a target="_blank" href="http://sepatu.fans.co,id/"><img src="{{asset ('images/sponsor/fans.png')}}" class="img-responsive center-block" alt="sponsor Sepatu fans"></a>  </div>
+                <div><a target="_blank" href="http://"><img width="190px" src="{{asset ('images/sponsor/ajt.jpeg')}}" class="img-responsive center-block" alt="sponsor AJT"></a>  </div>
+                <div><a target="_blank" href="http://bukalapak.com"><img width="300px" src="{{asset ('images/sponsor/bukalapak.png')}}" class="img-responsive center-block" alt="sponsor Bukalapak"></a>  </div>
+                <div><a target="_blank" href="https://semarangwingkorolls.net/"><img width="150px" src="{{asset ('images/sponsor/wingko.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
+                <div><a target="_blank" href="https://store.pelangi.love/"><img width="150px" src="{{asset ('images/sponsor/pelangi.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
+                <div><a target="_blank" href="https://mozilla.org/"><img width="250px" src="{{asset ('images/sponsor/mozilla.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
+                <div><a target="_blank" href="https://mozilla.org/"><img width="250px" src="{{asset ('images/sponsor/bellovoce.png')}}" width="" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
+
 
         </div>
     </div>
@@ -559,6 +558,34 @@
 
 </section>
 
+
+
+<section class="sponsors">
+    <div class="container">
+        <div class="section-title wow fadeInUp">
+            <h4>Media Partner Kami</h4>
+            <p>Acara ini terselenggara berkat dukungan berbagai pihak, Terimakasih.</p>
+        </div>
+        <div class="sponsor-slider wow bounceIn">
+                <div><a target="_blank" href="http://tvku.tv/"><img src="{{asset ('images/sponsor/tvku.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+                <div><a target="_blank" href="http://eventbanget.com/"><img src="{{asset ('images/mediapartner/eventbanget.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+                <div><a target="_blank" href="http://kabarlinux.id/"><img src="{{asset ('images/mediapartner/kabarlinux.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+                <div><a target="_blank" href="http://eventkampus.com/"><img src="{{asset ('images/mediapartner/eventkampus.jpeg')}}"width="200px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+                <div><a target="_blank" href="http://"><img src="{{asset ('images/mediapartner/pg.jpg')}}" width="200px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+                <div><a target="_blank" href="http://"><img src="{{asset ('images/mediapartner/smgstudent.jpeg')}}" width="180px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">
+                <a data-toggle="modal" data-target="#kerjasama-sponsorship" class="btn btn-outline">Ingin jadi sponsor ?</a>
+            </p>
+        </div>
+    </div>
+
+</section>
 
 
 <section class="faq" id="faq">
