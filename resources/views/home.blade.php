@@ -543,6 +543,7 @@
                 <div><a target="_blank" href="https://semarangwingkorolls.net/"><img width="150px" src="{{asset ('images/sponsor/wingko.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
                 <div><a target="_blank" href="https://store.pelangi.love/"><img width="150px" src="{{asset ('images/sponsor/pelangi.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
                 <div><a target="_blank" href="https://mozilla.org/"><img width="250px" src="{{asset ('images/sponsor/mozilla.png')}}" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
+                <div><a target="_blank" href="https://mozilla.org/"><img width="250px" src="{{asset ('images/sponsor/bellovoce.png')}}" width="" class="img-responsive center-block" alt="sponsor wingkorols"></a>  </div>
 
 
         </div>
