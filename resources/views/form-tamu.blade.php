@@ -5,7 +5,7 @@
         <h5>TAMU UNDANGAN</h5>
         <p>Registrasi Tamu Undangan dan Delegasi Release Party TealinuxOS {{env('TEALINUXOS_VERSION')}}.</p>
 
-        {{-- bila sudah tutup --}} @if(\App\Peserta::all()->count() > 80)
+        {{-- bila sudah tutup --}} @if(\App\Peserta::all()->count() > 130)
         <h6>Maaf, pendaftaran telah kami tutup, karena kuota peserta telah terpenuhi.
             <br/>
             <span style="color: #4eae49;">Bagi anda yang telah mendaftar namun belum membayar, silahkan segera lakukan pembayaran. </span>
