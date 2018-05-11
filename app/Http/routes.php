@@ -285,3 +285,10 @@ Route::get('/tea-export-data/komunitas',function(){
     }
     echo "</table>";
 });
+
+Route::get('tea-get-unicode',function(){
+    $peserta = \App\Peserta::all();
+    foreach ($peserta as $data) {
+        echo $data->kode_tiket."<br>";
+    }
+});
