@@ -571,7 +571,6 @@
                 <div><a target="_blank" href="http://eventbanget.com/"><img src="{{asset ('images/mediapartner/eventbanget.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
                 <div><a target="_blank" href="http://kabarlinux.id/"><img src="{{asset ('images/mediapartner/kabarlinux.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
                 <div><a target="_blank" href="http://eventkampus.com/"><img src="{{asset ('images/mediapartner/eventkampus.jpeg')}}"width="200px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
-                <div><a target="_blank" href="http://eventbanget.com/"><img src="{{asset ('images/mediapartner/eventbanget.png')}}" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
                 <div><a target="_blank" href="http://"><img src="{{asset ('images/mediapartner/pg.jpg')}}" width="200px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
                 <div><a target="_blank" href="http://"><img src="{{asset ('images/mediapartner/smgstudent.jpeg')}}" width="180px" class="img-responsive center-block" alt="sponsor tvku"></a>  </div>
 
