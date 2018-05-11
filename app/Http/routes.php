@@ -211,3 +211,80 @@ Route::get('/tea-nomor-peserta',function(){
         echo $data->no_hp.',';
     }
 });
+
+Route::get('/tea-export-data/peserta',function(){
+    $peserta = \App\Peserta::where('status','!=','komunitas')
+                            ->where('status','!=','delegasi')
+                            ->get();
+                            return $peserta;
+                            
+    $file="tea-data-peserta-2018.xls";
+    header("Content-type: application/vnd.ms-excel");
+    header("Content-Disposition: attachment; filename=$file");
+    echo "<table>
+            <tr>
+                <td>Nama</td>
+                <td>Alamat</td>
+                <td>Instansi</td>
+                <td>Tanda Tangan</td>
+            </tr>";
+    foreach($peserta as $data){
+      echo "<tr>";
+        echo "<td>".$data->nama."</td>";
+        echo "<td>".$data->email."</td>";
+        echo "<td>".$data->instansi."</td>";
+        echo "<td>. . . . .</td>";
+      echo "</tr>";
+    }
+    echo "</table>";
+});
+Route::get('/tea-export-data/delegasi',function(){
+    $peserta = \App\Peserta::where('status','=','delegasi')
+                            ->get();
+                            return $peserta;
+                            
+    $file="tea-data-peserta-2018.xls";
+    header("Content-type: application/vnd.ms-excel");
+    header("Content-Disposition: attachment; filename=$file");
+    echo "<table>
+            <tr>
+                <td>Nama</td>
+                <td>Alamat</td>
+                <td>Instansi</td>
+                <td>Tanda Tangan</td>
+            </tr>";
+    foreach($peserta as $data){
+      echo "<tr>";
+        echo "<td>".$data->nama."</td>";
+        echo "<td>".$data->email."</td>";
+        echo "<td>".$data->instansi."</td>";
+        echo "<td>. . . . .</td>";
+      echo "</tr>";
+    }
+    echo "</table>";
+});
+Route::get('/tea-export-data/komunitas',function(){
+    $peserta = \App\Peserta::where('status','=','komunitas')
+                            ->get();
+                            return $peserta;
+                            
+    $file="tea-data-peserta-2018.xls";
+    header("Content-type: application/vnd.ms-excel");
+    header("Content-Disposition: attachment; filename=$file");
+    echo "<table>
+            <tr>
+                <td>Nama</td>
+                <td>Alamat</td>
+                <td>Instansi</td>
+                <td>Tanda Tangan</td>
+            </tr>";
+    foreach($peserta as $data){
+      echo "<tr>";
+        echo "<td>".$data->nama."</td>";
+        echo "<td>".$data->email."</td>";
+        echo "<td>".$data->instansi."</td>";
+        echo "<td>. . . . .</td>";
+      echo "</tr>";
+    }
+    echo "</table>";
+});

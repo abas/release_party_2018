@@ -82,11 +82,13 @@
     $('#opsi-status').change(function () {
 
         if ($(this).val() == 'komunitas') {
+            $('#instansi').remove();
             var instansi = "Apa nama komunitas mu ?";
             $('.instansi').append(
                 '<div class="form-group"><input id="instansi" class="form-control" name="instansi" type="text" placeholder=" ' +
                 instansi + '"  required /></div>');
         } else if ($(this).val() == 'delegasi') {
+            $('#instansi').remove();
             var instansi = "Apa nama ormawa mu ?";
             $('.instansi').append(
                 '<div class="form-group"><input id="instansi" class="form-control" name="instansi" type="text" placeholder=" ' +

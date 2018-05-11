@@ -160,7 +160,7 @@ class PesertaController extends Controller
 
       $peserta->instansi = $request->get('instansi');
 
-      $peserta->status_bayar = 1;
+      $peserta->status_bayar = 0;
       $peserta->email_terkirim = 0;
       $peserta->sms_terkirim = 0;
 
@@ -173,12 +173,12 @@ class PesertaController extends Controller
         Mail::queue('emails.lunas', $data, function($message) use ($data){
             $message->to($data['email'])
                 ->subject('Konfirmasi Pembayaran SemNas Release Party TeaLinux OS 8 - ' . $data['nama']);
-            // Log::info('email PELUNASAN terkirim ke ' . $data['email'] . ' dengan nama peserta : ' . $data['nama']);
+            Log::info('email PELUNASAN terkirim ke ' . $data['email'] . ' dengan nama peserta : ' . $data['nama']);
         });
 
        //QrCode::generate($kode_tiket, '../public/qrcode.svg');
-       //   return view('terimakasih')->withNamapeserta($peserta->nama)->withEmail($peserta->email)->withKode_tiket($peserta->kode_tiket);
-        return redirect()->back();
+         return view('terimakasih')->withNamapeserta($peserta->nama)->withEmail($peserta->email)->withKode_tiket($peserta->kode_tiket);
+        // return redirect()->back();
     }
 
     public function show_konfirmasi()
@@ -364,17 +364,16 @@ class PesertaController extends Controller
 
       $peserta->save();
 
-      Log::info('akan [ Setelah pendaftaran ]kirim email ke ' . $peserta->email);
       //$this->dispatch(new SendThanksEmail($data));
 
-      Mail::queue('emails.after-register', $data, function($message) use ($data){
-         $message->to($data['email'])
-                 ->subject('Pendaftaran Release Party TeaLinux OS 8 - ' . $data['nama']);
-                 Log::info('email terkirim ke ' . $data['email'] . ' dengan nama peserta : ' . $data['nama']);
-       });
+        // Mail::queue('emails.lunas', $data, function($message) use ($data){
+        //     $message->to($data['email'])
+        //         ->subject('Konfirmasi Pembayaran SemNas Release Party TeaLinux OS 8 - ' . $data['nama']);
+        // });
 
        //QrCode::generate($kode_tiket, '../public/qrcode.svg');
+       //   return view('terimakasih')->withNamapeserta($peserta->nama)->withEmail($peserta->email)->withKode_tiket($peserta->kode_tiket);
+       return redirect()->back();
 
-      return view('terimakasih')->withNamapeserta($peserta->nama)->withEmail($peserta->email)->withKode_tiket($peserta->kode_tiket);
     }
 }

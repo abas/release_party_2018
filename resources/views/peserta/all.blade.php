@@ -31,10 +31,10 @@ Table Peserta
                 <th>Email</th>
                 <th>Kode Tiket</th>
                 <th>Instansi</th>
+                <th>Status</th>
                 <th>DVD</th>
                 <th>Status Bayar</th>
                 <th>Email Terkirim</th>
-                <th>Sms Terkirim</th>
                 <th><center>Aksi</center></th>
             </tr>
             </thead>
@@ -49,6 +49,7 @@ Table Peserta
                     <td>{{$peserta->email}}</td>
                     <td>{{$peserta->kode_tiket}}</td>
                     <td>{{$peserta->instansi}}</td>
+                    <td>{{$peserta->status}}</td>
                     <td>{{$peserta->dvd}}</td>
                     <td>
                     @if($peserta->status_bayar == 0)
@@ -58,7 +59,6 @@ Table Peserta
                     @endif
                     </td>
                     <td>{{$peserta->email_terkirim}}</td>
-                    <td>{{$peserta->sms_terkirim}}</td>
 
                     <td><a href="{{ url('/peserta/delete/'.$peserta->id) }}">Delete</a>
                         <a href="{{ url('/peserta/edit/'.$peserta->id) }}">Edit</a></td>
