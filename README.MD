@@ -84,6 +84,7 @@ php artisan db:seed
 open your database, and see the table `record`
 
 ## Running Server Locally
+to run your laravel server with simply command below
 ```
 php artisan serve
 ```
